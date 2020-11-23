@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#ffffff"
+              android:orientation="vertical"
+              tools:context=".MainActivity">
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AUTHENTIFICATION"
+            android:textSize="35dp"
+            android:layout_gravity="center"
+            android:textColor="#8e0e54"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+
+    />
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/users"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="0dp"
+    />
+
+    <EditText
+            android:layout_marginTop="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="Entrer votre login"
+            android:ems="10"
+            android:textColor="#000"
+            android:textColorHint="#000"
+            android:id="@+id/text_user_admin"
+            android:autofillHints=""
+            android:textSize="16dp"
+            android:importantForAutofill="no"/>
+
+    <EditText
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="Entre votre mot de passe"
+            android:ems="10"
+            android:textColor="#000"
+            android:textColorHint="#000"
+            android:textSize="16dp"
+            android:id="@+id/text_pwd_admin"
+    />
+    <Button
+            android:text="Se connecter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_cnx_login"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="200dp"
+            android:layout_marginLeft="5dp"
+            android:textSize="18dp"
+            android:background="@drawable/bouton_all"
+    />
+    <Button
+            android:id="@+id/btn_new_cli"
+            android:text="Nouveau compte"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bouton_all"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:textAllCaps="false"
+            android:layout_marginTop="-48dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="200dp"
+            android:textColor="#fff"
+            android:padding="10dp"
+
+    />
+</LinearLayout>
